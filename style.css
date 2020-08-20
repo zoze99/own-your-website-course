@@ -24,7 +24,7 @@ h3{
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: 25px;
-    color: black;
+    color: #C2B4AB;
     margin: 0;
 }
 
@@ -47,7 +47,7 @@ a:link, a:visited{
     text-decoration: none;
 }
 
-.nav_menu:hover{
+.nav-menu:hover{
     color: white;
     transition: 0.3s;
 }
@@ -119,4 +119,33 @@ h5{
     color: #C2B4AB;
     font-size: 15px;
     text-align: end;
+}
+
+
+/*footer*/
+
+.work-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+.contact-links{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    
+}
+
+.blog:hover, .instagram:hover{
+    color: white;
+    transition: 0.3s;
 }
