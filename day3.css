@@ -1,0 +1,55 @@
+
+
+.container{
+    display: flex;
+    flex-flow: row;
+    background-color: skyblue;
+    height: 100vh;
+
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+
+.item{
+    width: 100%;
+    height: 50px;
+    background-color: pink;
+    border: 1px solid black;
+}
+
+
+
+
+body{
+    margin:0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.sidebar-a{
+    border-top: 1px solid rgb(253, 171, 19);
+    border-bottom: 1px solid rgb(253, 171, 19);
+    height: 100vh;  
+}
+
+.main{
+    border: 1px solid rgb(253, 171, 19);
+    height: 100vh; 
+}
+
+.sidebar-b{
+    border-top: 1px solid rgb(253, 171, 19);
+    border-bottom: 1px solid rgb(253, 171, 19);
+    height: 100vh;  
+}
+
+h1, p{
+    text-align: center;    
+}
+
+
